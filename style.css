@@ -85,7 +85,8 @@
   background-color: #e2e8f0;
   border-style: none;
   height: 20px;
-  justify-self: stretch;
+  width: 80%;
+  justify-self: left;
 }
 
 .header .search-bar .search-icon {
@@ -129,6 +130,7 @@
   background-color: #e2e8f0;
   display: grid;
   grid-template-columns: 7fr 3fr;
+  padding-bottom: 25px;
 }
 
 .left-area {
@@ -183,7 +185,8 @@ hr {
   margin: 10px 0;
 }
 
-.annoucements-container {
+.annoucements-container,
+.trending-container {
   margin-top: 5px;
   background-color: white;
   border-radius: 8px;
@@ -203,4 +206,18 @@ hr {
 .announcement-body {
   font-size: 10px;
   color: rgb(78, 78, 78);
+}
+
+.trending > p {
+  margin-top: 20px;
+}
+
+.trending-container p {
+  font-size: 12px;
+}
+
+.trending-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px 10px;
 }
