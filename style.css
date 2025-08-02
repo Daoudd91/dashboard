@@ -128,12 +128,12 @@
 .main-area {
   background-color: #e2e8f0;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 7fr 3fr;
 }
 
 .left-area {
   padding-top: 15px;
-  padding-left: 10px;
+  padding-left: 15px;
   padding-right: 10px;
 }
 
@@ -171,4 +171,36 @@
   display: flex;
   justify-content: end;
   gap: 25px;
+}
+
+.right-area {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.annoucements-container {
+  margin-top: 5px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+}
+
+.annoucements > p,
+.trending > p {
+  font-weight: 700;
+}
+.announcement-title {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.announcement-body {
+  font-size: 10px;
+  color: rgb(78, 78, 78);
 }
